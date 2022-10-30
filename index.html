@@ -58,7 +58,6 @@
                 </tr>
               </table>
         </article>
-        <article>
         <article class = "blog-post">
         <h4>Fun Things Happening in the Fratnernity</h4>
         <address class = 'author'><a rel = "author" href = "www.linkedin.com/in/caitlynmarsh17"> Caitlyn Marsh</a></address>
@@ -75,31 +74,22 @@
                 was an amazing time for everyone, we were happy to see familiar faces on campus again. Look 
                 out for next weeks blog post on more social events!
             </p>
-            <img src="https://akpsi.org/wp-content/uploads/2017/01/AlphaKappaPsi_Horizontal-Website.png">
+            <img src="https://akpsi.org/wp-content/uploads/2017/01/AlphaKappaPsi_Horizontal-Website.png" alt="akpsi logo">
         </article>
     </section>  
     <h5>Email Sign Up</h5>
-    <p>Please fill in this form to subscribe to our email newsletter.</p>
-    <hr>
-
-    <label for="fn"><b>First Name</b></label>
-    <input type="first name" placeholder="Enter First Name" name="fn" required>
-
-    <label for="ln"><b>Last Name</b></label>
-    <input type="last name" placeholder="Enter Last Name" name="ln" required>
-
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
-
-    <label>
-      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-    </label>
-
-    <div class="clearfix">
-      <button type="button" class="cancelbtn">Cancel</button>
-      <button type="submit" class="signupbtn">Sign Up</button>
-    </div>
+    <form action="/url" method="GET">
+      <p> Please fill out this form to subscribe to our newsletter. </p>
+      <p>First Name:</p>
+      <input type="text" name="first_name" placeholder="John">
+      <p>Last Name:</p>
+      <input type="text" name="last_name" placeholder="Doe">
+      <p>Email Address:</p>
+      <input type="text" name="email_address" placeholder="johndoe@gmail.com">     
+  </form>
+  <div class="submit_button">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <button type="submit" class="signupbtn">Sign Up</button>
   </div>
-</form>
 </body>
 </html>
