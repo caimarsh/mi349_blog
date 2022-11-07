@@ -12,6 +12,72 @@ body {
     border-top: 8px solid black;
     background: lightslategray;
 }
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main,
+  .sidebar {
+    border: 3px solid black;
+    padding: 15px;
+    background-color: #fff;
+  }
+  
+  .main {
+    width: 60%;
+    height: 150vh;
+  }
+  
+  .sidebar {
+    width: 25%;
+    height: 10vh;
+  }
+  .wrapper2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main2,
+  .sidebar2 {
+    border: 3px solid black;
+    padding: 15px;
+    background-color: #fff;
+  }
+  
+  .main2 {
+    width: 60%;
+    height: 50vh;
+  }
+  
+  .sidebar2 {
+    width: 25%;
+    height: 10vh;
+  }
+  .wrapper3 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main3,
+  .sidebar3 {
+    border: 3px solid black;
+    padding: 15px;
+    background-color: #fff;
+  }
+  
+  .main3 {
+    width: 60%;
+    height: 250vh;
+  }
+  
+  .sidebar3{
+    width: 25%;
+    height: 10vh;
+  }
+  img {
+    float: right;
+  }
 h1 {
     color: goldenrod;
     font-size: 2.5em;
